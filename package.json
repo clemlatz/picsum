@@ -1,0 +1,24 @@
+{
+  "name": "picsum",
+  "version": "1.0.0",
+  "description": "Download placeholder images easily from command line",
+  "main": "app.js",
+  "bin": "./app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iwazaru/picsum.git"
+  },
+  "author": "Clément Bourgon <cb@nokto.net>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/iwazaru/picsum/issues"
+  },
+  "homepage": "https://github.com/iwazaru/picsum#readme",
+  "dependencies": {
+    "commander": "^2.11.0",
+    "node-fetch": "^1.7.3"
+  }
+}
