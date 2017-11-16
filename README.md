@@ -1,7 +1,7 @@
 # picsum
 
-Picsum allows you to download easily random pictures to use as placeholders
-from the command line.
+Picsum is a commmand-line utility that allows you to download random pictures to use as placeholders
+from [picsum.photos](http://picsum.photos/).
 
 ## Install
 
@@ -32,3 +32,8 @@ will download five 1024x768 images plus five 2048x1536 (retina) images and name 
 ## TODO
 
 * Tests!
+
+## Changelog
+
+### 1.0.0 (2017-11-16)
+* First release
