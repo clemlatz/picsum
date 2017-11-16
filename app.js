@@ -29,7 +29,7 @@ const getImage = async function(imageWidth, imageHeight, iteration, filename, re
 const program = require('commander');
 
 program
-  .version('0.0.1')
+  .version('1.0.0')
   .option('-w, --width [width]',   'image width in pixels (default 100)')
   .option('-h, --height [height]', 'image height in pixels (default 100)')
   .option('-n, --number [number]', 'number of images to get (default 1)')
