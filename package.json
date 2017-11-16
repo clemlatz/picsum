@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/iwazaru/picsum/issues"
   },
-  "homepage": "https://github.com/iwazaru/picsum#readme"
+  "homepage": "https://github.com/iwazaru/picsum#readme",
+  "dependencies": {
+    "commander": "^2.11.0"
+  }
 }
