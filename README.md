@@ -28,7 +28,7 @@ Example:
     piscum -w 1024 -h 768 -n 5 -f photo -r -q cats
 
 will download five cats images in 1024x768 and in 2048x1536 (retina) and name them
-`photo-1.jpg`, `photo-1@2x.jpg`, `photo-2.jpg`, `photo-2@2.jpg`, etc. in the current
+`photo-1.jpg`, `photo-1@2x.jpg`, `photo-2.jpg`, `photo-2@2x.jpg`, etc. in the current
 directory.
 
 
@@ -38,7 +38,7 @@ directory.
 
 ## Changelog
 
-### DEV
+### 1.1.0 (2017-12-05)
 * Add a query parameter to search image by keywords
 * Use Unsplash Source instead of picsum.photos
 
