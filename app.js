@@ -7,7 +7,7 @@ const fetch = require('node-fetch');
 
 const getImage = async function(imageWidth, imageHeight, iteration, filename, retina) {
 
-  const url      = `https://picsum.photos/${imageWidth}/${imageHeight}?random`;
+  const url      = `https://source.unsplash.com/${imageWidth}x${imageHeight}`;
   const imageNum = iteration + 1;
 
   const res = await fetch(url);
