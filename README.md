@@ -31,16 +31,22 @@ will download five cats images in 1024x768 and in 2048x1536 (retina) and name th
 `photo-1.jpg`, `photo-1@2x.jpg`, `photo-2.jpg`, `photo-2@2x.jpg`, etc. in the current
 directory.
 
-
 ## TODO
 
-* Tests!
+- Tests!
+- Prevent downloading the same image twice
 
 ## Changelog
 
+### 1.1.1 (2019-04-11)
+
+- Fix typo in README
+
 ### 1.1.0 (2017-12-05)
-* Add a query parameter to search image by keywords
-* Use Unsplash Source instead of picsum.photos
+
+- Add a query parameter to search image by keywords
+- Use Unsplash Source instead of picsum.photos
 
 ### 1.0.0 (2017-11-16)
-* First release
+
+- First release
