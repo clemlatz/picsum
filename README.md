@@ -25,7 +25,7 @@ placeholders from [Unsplash Source](https://source.unsplash.com/).
 
 Example:
 
-    piscum -w 1024 -h 768 -n 5 -f photo -r -q cats
+    picsum -w 1024 -h 768 -n 5 -f photo -r -q cats
 
 will download five cats images in 1024x768 and in 2048x1536 (retina) and name them
 `photo-1.jpg`, `photo-1@2x.jpg`, `photo-2.jpg`, `photo-2@2x.jpg`, etc. in the current
