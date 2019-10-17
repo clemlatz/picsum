@@ -6,7 +6,7 @@ placeholders from [Unsplash Source](https://source.unsplash.com/).
 ## Install
 
 1. Install [node & npm](https://nodejs.org/en/download/) (node v8 required)
-2. `npm install -g picsum` (or `yarn add global piscum`)
+2. `npm install -g picsum` (or `yarn global add piscum`)
 
 ## Usage
 
