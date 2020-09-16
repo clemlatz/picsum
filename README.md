@@ -3,29 +3,32 @@
 Picsum is a commmand-line utility that allows you to download random pictures to use as
 placeholders from [Unsplash Source](https://source.unsplash.com/).
 
-## Install
+## Requirements
 
-1. Install [node & npm](https://nodejs.org/en/download/) (node v8 required)
-2. `npm install -g picsum` (or `yarn global add piscum`)
+- [Node.js v8+](https://nodejs.org/en/download/)
 
 ## Usage
 
-    Usage: picsum [options]
+```console
+npx picsum
+```
 
-    Options:
+Options
 
-    -V, --version           output the version number
-    -w, --width [width]     image width in pixels (default 100)
-    -h, --height [height]   image height in pixels (default 100)
-    -n, --number [number]   number of images to get (default 1)
-    -f, --filename [name]   set output filename (default image)
-    -r, --retina            download retina versions as well (default false)
-    -q, --query [keywords]  keywords for searching thematic pictures
-    -h, --help              output usage information
+```console
+-V, --version           output the version number
+-w, --width [width]     image width in pixels (default 100)
+-h, --height [height]   image height in pixels (default 100)
+-n, --number [number]   number of images to get (default 1)
+-f, --filename [name]   set output filename (default image)
+-r, --retina            download retina versions as well (default false)
+-q, --query [keywords]  keywords for searching thematic pictures
+-h, --help              output usage information
+```
 
 Example:
 
-    picsum -w 1024 -h 768 -n 5 -f photo -r -q cats
+    npx picsum -w 1024 -h 768 -n 5 -f photo -r -q cats
 
 will download five cats images in 1024x768 and in 2048x1536 (retina) and name them
 `photo-1.jpg`, `photo-1@2x.jpg`, `photo-2.jpg`, `photo-2@2x.jpg`, etc. in the current
