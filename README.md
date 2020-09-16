@@ -41,6 +41,10 @@ directory.
 
 ## Changelog
 
+### 1.1.2 (2020-09-16)
+
+- Upgrade node-fetch dependency to fix security vulnerability
+
 ### 1.1.1 (2019-04-11)
 
 - Fix typo in README
