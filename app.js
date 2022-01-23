@@ -2,8 +2,9 @@
 
 'use strict';
 
-const fs    = require('fs');
-const fetch = require('node-fetch');
+import fs from 'fs';
+import fetch from 'node-fetch';
+import program from 'commander';
 
 const getImage = async function(imageWidth, imageHeight, iteration, filename, retina, query) {
 
@@ -29,8 +30,6 @@ const getImage = async function(imageWidth, imageHeight, iteration, filename, re
     process.stdout.write(`Downloading retina image ${iteration+1} (${imageWidth*2}*${imageHeight*2})...\n`);
   }
 }
-
-const program = require('commander');
 
 program
   .version('1.1.0')

@@ -4,6 +4,7 @@
   "description": "Download placeholder images easily from command line",
   "main": "app.js",
   "bin": "./app.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
