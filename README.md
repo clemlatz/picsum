@@ -1,7 +1,7 @@
 # picsum
 
 Picsum is a commmand-line utility that allows you to download random pictures to use as
-placeholders from [Unsplash Source](https://source.unsplash.com/).
+placeholders from [LoremFlickr](https://loremflickr.com/).
 
 ## Requirements
 

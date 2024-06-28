@@ -8,11 +8,11 @@ import program from 'commander';
 
 const getImage = async function(imageWidth, imageHeight, iteration, filename, retina, query) {
 
-  let url        = `https://source.unsplash.com/${imageWidth}x${imageHeight}`;
+  let url        = `https://loremflickr.com/${imageWidth}/${imageHeight}`
   const imageNum = iteration + 1;
 
   if (query !== null) {
-    url += `/?${query}`;
+    url += `/${query}`;
   }
 
   const res = await fetch(url);
